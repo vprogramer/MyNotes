@@ -10,12 +10,16 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.mynotes.Models.Notes;
 import com.example.mynotes.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class NotesListAdapter extends RecyclerView.Adapter <NotesViewHolder>{
 
         Context context;
-//        List<Notes> list;
+        List<Notes> list;
         @NonNull
         @Override
         public NotesViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
